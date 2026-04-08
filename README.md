@@ -14,7 +14,7 @@ anisette-v3) but it can also be used with AltServer-Linux.
 2. Fix permission
    ```bash
    chown -R 1000:1000 /opt/anisette-v3_data
-   chmod -R 775 anisette-v3_data/
+   chmod -R 775 /opt/anisette-v3_data/
    ```
 3. Run the container
    ```bash
